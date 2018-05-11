@@ -1,0 +1,576 @@
+body {
+	background: #FAF0E6;
+}
+
+.pageFrame {
+	background: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60px;
+	float: left;
+	width: 90%;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                          !!!!
+	!!!!           HEADER         !!!!
+	!!!!                          !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.header {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin-bottom: 60px;
+	background: #FFE4B5;
+	z-index: 999;
+}
+
+.header .routesHolder:hover {
+	background: #87CEEB;
+	color: white;
+}
+
+.routesBox {
+	float: right;
+}
+
+.routesHolder {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: 100%;
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+
+.titleBox {
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 60px;
+	padding-top: 3px;
+}
+
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!        LANDING PAGE       !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+#firstImage {
+	background-image: url('../images/ScenicBeach.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	margin-top: 60px;
+	position: static;
+	height: 700px;
+}
+
+.firstImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+	z-index: 0;
+}
+
+.firstImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+	z-index: 0;
+}
+
+.firstImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
+	z-index: 0;
+}
+
+#firstBlurbBox {
+	height: 300px;
+}
+
+.firstBlurbOne {
+	width: 50%;
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.firstBlurbTwo {
+	width: 50%;
+	float: right;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#secondImage {
+	background-image: url('../images/BeachImage.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	height: 620px;
+	position: static;
+}
+
+.secondImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+}
+
+.secondImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+}
+
+.secondImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!       GET / GIVE BOX      !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.giveStuffBox {
+	background: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 93%;
+	position: relative;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+
+}
+
+.giveStuffTitleBox {
+	float: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	width: 50%;
+	background: #87CEEB;
+	color: white;
+	border-radius: 3px 0px 0px 0px;
+}
+
+.giveStuffTitle {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.giveStuffContentBox {
+	width: 50%;
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	background: #FFFAF0;
+	height: 84.5%;
+	border-radius: 0px 0px 0px 3px;
+}
+
+.giveStuffContentText {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.giveStuffContentMap {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+	border-radius: 0px 0px 3px 0px;
+
+}
+
+.getStuffBox {
+	background: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 93%;
+	position: relative;
+	height: 320px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+
+}
+
+.getStuffTitleBox {
+	float: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	width: 50%;
+	background: #87CEEB;
+	color: white;
+	border-radius: 3px 0px 0px 0px;
+}
+
+.getStuffTitle {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.getStuffContentBox {
+	width: 50%;
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	background: #FFFAF0;
+	height: 85.5%;
+	border-radius: 0px 0px 0px 3px;
+}
+
+.getStuffContentText {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.getStuffContentMap {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+	border-radius: 0px 0px 3px 0px;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!   GET / GIVE BOX BUTTONS  !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+#getCheckbox {
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+.getStuffContentSubtextBox {
+	width: 100%;
+}
+
+.getStuffContentSubtext {
+	float: left;
+	margin-left: 8.5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 36%;
+	margin-top: 2%;
+}
+
+.getStuffContentSubtextText {
+	text-align: center;
+	padding-top: 5%
+}
+
+.giveStuffContentSubtextBox {
+	width: 100%;
+}
+
+.giveStuffContentSubtext {
+	float: left;
+	margin-left: 8.5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 36%;
+	margin-top: 17%
+}
+
+.giveStuffContentSubtextText {
+	text-align: center;
+	padding-top: 5%
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!        MY STUFF PAGE      !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.profileHeader {
+
+}
+
+.profileHeaderPicture {
+	height: 250px;
+	width: 250px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+.profileHeaderInfo {
+	float: left;
+	margin-left: 4%;
+	margin-top: 10%;
+}
+
+.profileHeaderName {
+}
+
+.myStuffFrame {
+	background: white;
+	width: 70%;
+	float: right;
+	margin-right: 2%;
+}
+
+.myGets {
+	margin-top: 4%;
+}
+
+.personalInfoBox {
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 250px;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+.giveGetTrackerBox {
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 250px;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!        SUBMIT PAGE        !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.submissionTitleBox {
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
+.submissionPageSplit {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.stepTitleBox {
+	margin-left: 6%;
+	clear: left;
+}
+
+.typeSelectorHolder {
+	width: 100%;
+}
+
+.typeBox {
+	float: left;
+	margin-left: 7%;
+	margin-top: 1%;
+}
+
+#submissionChecks {
+	margin-left: 53.5%;
+}
+
+.stepTwoTitleBox {
+	margin-top: 10%;
+	margin-left: 6%;
+}
+
+#submissionDecriptionEntry {
+
+}
+
+#submissionEntryBox {
+	margin-top: 2%;
+	margin-left: 1%;
+	width: 65%;
+}
+
+.paymentRequestBox {
+	margin-left: 1%;
+	margin-top: 2%;
+}
+
+#paymentCheck {
+	margin-left: 2%;
+}
+
+.priceVerification {
+	margin-top: 5%;
+}
+
+#priceInputField {
+	width: 13%;
+}
+
+.submissionPageButtonBox {
+	float: left;
+	margin-left: 5.5%;
+	margin-bottom: 5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 25%;
+	margin-top: 4%;
+}
+
+.submissionPageButtonText {
+	text-align: center;
+	padding-top: 3%
+
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!!        SEARCH PAGE        !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.searchPageHeader {
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+.searchPageTitleSplit {
+	margin-left: 4%;
+	margin-right: 4%;
+
+}
+
+#searchPageInput {
+	margin-left: 6%;
+	margin-top: 3%;
+	width: 80%;
+}
+
+#searchPageOutput {
+	margin-left: 6%;
+	margin-top: 2%;
+}
+
+.searchPageMapBox {
+	width: 80%;
+	margin-left: 6%;
+	height: 380px;
+	background: green;
+}
+
+/*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!                           !!!!
+	!!!! REGISTRATION / LOGIN PAGE !!!!
+	!!!!                           !!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.registrationBox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DCDCDC;
+	border-radius: 5px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 8%;
+	background: black;
+	color: white;
+	opacity: 0.8;
+	margin-top: 120px;
+	position: relative;
+	padding-left: 3%;
+	padding-top: 3%;
+}
+
+.registrationFrame {
+	background-image: url('hikingImageTwo.jpg');
+	background-repeat: no-repeat;
+	width: 90%;
+	background-size: 100% 666px;
+	height: 666px;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+}
+
+#registrationFieldBox {
+	margin-right: 10%;
+	margin-left: 5%
+}
+
+.registrationPageButtonBox {
+	float: left;
+	margin-left: 5.5%;
+	margin-bottom: 5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DCDCDC;
+	border-radius: 5px;
+	width: 25%;
+	margin-top: 4%;
+}
+
+.registrationPageButtonText {
+	text-align: center;
+	padding-top: 3%
+
+}
+
+.loginBox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DCDCDC;
+	border-radius: 5px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 8%;
+	background: black;
+	color: white;
+	opacity: 0.8;
+	margin-top: 210px;
+	position: relative;
+	padding-left: 3%;
+	padding-top: 3%;
+}

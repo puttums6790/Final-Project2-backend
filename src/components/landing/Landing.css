@@ -1,0 +1,171 @@
+#firstImage {
+	background-image: url('ParkBackground.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	margin-top: 40px;
+	position: static;
+	height: 700px;
+}
+
+.firstImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+	z-index: 0;
+}
+
+.firstImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+	z-index: 0;
+}
+
+.firstImageBottomText {
+	padding-left: 69%;
+	padding-top: 50px;
+	z-index: 0;
+}
+
+#firstBlurbBox {
+	height: 300px;
+}
+
+.blurbTitle {
+	font-size: 5.0rem;
+	margin-bottom: 20px;
+}
+
+.firstBlurbOne {
+	width: 50%;
+	float: left;
+	padding-left: 7%;
+	padding-right: 5%;
+}
+
+.firstBlurbTwo {
+	width: 50%;
+	float: right;
+	padding-left: 5%;
+	padding-right: 7%;
+}
+
+body {
+	background: #FAF0E6;
+}
+
+.pageFrame {
+	background: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60px;
+	float: left;
+	width: 90%;
+}
+
+.websiteName {
+	font-size: 9.0rem;
+	text-shadow: 4px 4px 4px #000000;
+	margin-top: 20px;
+}
+
+.websiteSubOne {
+	font-size: 3.0rem;
+	margin-top: 40px;
+	margin-left: 27%
+}
+
+.websiteSubTwo {
+	font-size: 3.0rem;
+	margin-left: 37%;
+	margin-top: 20px;
+}
+
+.imageBannerOne {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 170px;
+	clear: both;
+}
+
+.imageBannerTwo {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 170px;
+	clear: both;
+}
+
+#bannerOne {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 190px;
+	background-image: url("BannerOne.jpg");
+	background-size: 100% 190px;
+
+}
+
+#bannerTwo {
+	background: green;
+	width: 34%;
+	float: left;
+	height: 190px;
+	background-image: url("BannerTwo.jpeg");
+	background-size: 100% 190px;
+}
+
+#bannerThree {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 190px;
+	background-image: url("BannerThree.jpg");
+	background-size: 100% 190px;
+}
+
+#bannerFour {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 190px;
+	background-image: url("BannerFive.jpg");
+	background-size: 100% 190px;
+}
+
+#bannerFive {
+	background: red;
+	width: 34%;
+	float: left;
+	height: 190px;
+	background-image: url("BannerFour.jpeg");
+	background-size: 100% 190px;
+}
+
+#bannerSix {
+	background: red;
+	width: 33%;
+	float: left;
+	height: 190px;
+	background-image: url("BannerSix.jpg");
+	background-size: 100% 190px;
+}
+
+.secondBlurbLeft {
+	float: left;
+	width: 50%;
+	padding-left: 7%;
+	padding-right: 5%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.secondBlurbRight {
+	float: left;
+	width: 50%;
+	padding-left: 5%;
+	padding-right: 7%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}

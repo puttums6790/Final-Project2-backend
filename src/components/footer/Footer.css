@@ -1,0 +1,17 @@
+.footer {
+	height: 40px;
+	background: #FFE4B5;
+	color: black;
+	position: static;
+	float: left;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.footerText {
+	text-align: center;
+}
+
+.footerTextBox {
+	padding-top: 9px;
+}

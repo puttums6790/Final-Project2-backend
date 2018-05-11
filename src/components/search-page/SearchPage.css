@@ -1,0 +1,47 @@
+body {
+	background: #FAF0E6;
+}
+
+.profileFrame {
+	background: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60px;
+	float: left;
+	width: 90%;
+}
+
+.searchPageHeader {
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 30px;
+}
+
+.searchPageTitleSplit {
+	margin-left: 4%;
+	margin-right: 4%;
+
+}
+
+#searchPageInput {
+	margin-left: 6%;
+	margin-top: 3%;
+	width: 80%;
+}
+
+#searchPageOutput {
+	margin-left: 6%;
+	margin-top: 2%;
+}
+
+.searchPageMapBox {
+	width: 80%;
+	margin-left: 6%;
+	height: 380px;
+	background: green;
+}
+
+.searchCardHolder {
+	margin-top: 30px;
+	margin-left: 6.5%;
+}

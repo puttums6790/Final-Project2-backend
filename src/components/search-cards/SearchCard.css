@@ -1,0 +1,75 @@
+.giveStuffBox {
+	background: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 93%;
+	position: relative;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+
+}
+
+.giveStuffTitleBox {
+	float: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	width: 50%;
+	background: #87CEEB;
+	color: white;
+	border-radius: 3px 0px 0px 0px;
+}
+
+.giveStuffTitle {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.giveStuffContentBox {
+	width: 50%;
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	background: #FFFAF0;
+	height: 84.5%;
+	border-radius: 0px 0px 0px 3px;
+}
+
+.giveStuffContentText {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.giveStuffContentMap {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+	border-radius: 0px 0px 3px 0px;
+
+}
+
+.giveStuffContentSubtextBox {
+	width: 100%;
+}
+
+.giveStuffContentSubtext {
+	float: left;
+	margin-left: 8.5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 36%;
+	margin-top: 17%
+}
+
+.giveStuffContentSubtextText {
+	text-align: center;
+	padding-top: 5%
+}
