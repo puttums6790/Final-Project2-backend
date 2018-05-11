@@ -15,7 +15,7 @@
   },
   "proxy": "http://localhost:3001",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "heroku-postbuild": "npm run build",
     "test": "react-scripts test --env=jsdom",
